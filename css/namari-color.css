@@ -124,8 +124,15 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/portfolio_background.jpg") no-repeat center top;
+    background: url("../images/banner-images/SAM_0910.JPG") no-repeat center top;
     background-size:cover;
+}
+
+@media (max-width: 414px){
+    #banner {
+        background: url("../images/banner-images/portfolio_background_2.jpg") no-repeat center top;
+        background-size:cover;
+    }
 }
 
 

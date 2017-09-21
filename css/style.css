@@ -2346,6 +2346,14 @@ blockquote {
     padding-right: 79px;
 }
 
+.about_me a{
+    font-size: 25px;
+    
+}
+.about_me i{
+    color:  #d2b356;
+}
+
 .project_gallery a{
     float: left;
 }
@@ -2367,9 +2375,13 @@ blockquote {
         padding-left: 0%;
         
     }
+    .about_me{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
     .about_me p{
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
